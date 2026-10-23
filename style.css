@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  padding: 30px 16px;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  color: #2457a7;
+}
+
+button {
+  padding: 12px 18px;
+  color: white;
+  background: #2457a7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #173d78;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#status {
+  margin-top: 20px;
+}
+
+#taskList {
+  padding: 0;
+  list-style: none;
+}
+
+#taskList li {
+  margin: 10px 0;
+  padding: 14px;
+  background: #f4f7fb;
+  border-radius: 6px;
+  overflow-wrap: anywhere;
+}
