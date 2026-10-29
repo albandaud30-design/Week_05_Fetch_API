@@ -54,3 +54,11 @@ button:disabled {
   border-radius: 6px;
   overflow-wrap: anywhere;
 }
+#taskList li {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+#taskList li:hover {
+  background: #e2ebfa;
+}
