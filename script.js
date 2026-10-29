@@ -1,4 +1,3 @@
-javascript
 const greet = (name) => `Hello, ${name}! Welcome to Week 5.`;
 
 document.getElementById("message").textContent = greet("Alban");
